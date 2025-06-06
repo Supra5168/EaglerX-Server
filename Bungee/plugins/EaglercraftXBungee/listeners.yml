@@ -13,6 +13,7 @@ listener_01:
   - '&5Replit EaglercraftX server'
   allow_motd: true
   allow_query: true
+  allow_voice: true
   request_motd_cache:
     cache_ttl: 7200
     online_server_list_animation: false

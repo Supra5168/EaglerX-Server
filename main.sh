@@ -9,19 +9,18 @@ unset DISPLAY
 echo "set -g mouse on" > ~/.tmux.conf
 
 tmux kill-session -t server
-# Restart Caddyserver, portforwarding 8081 for Eaglercraft.
+# Restart Caddyserver, portforwarding for Eaglercraft.
 cd ./Caddy
 caddy stop
 caddy start --config ./Caddyfile > /dev/null 2>&1
 cd ..
-# Run Cuberite Server
-cd ./Cuberite
-chmod +x Cuberite
-tmux new -d -s server "./Cuberite"
+# Run Paper Server
+cd ./Paper
+tmux new -d -s server "java -Xmx1024M -Xms1024M -jar paper.jar"
 cd ..
 # Run Waterfall/Bungeecord
 cd ./Bungee
-tmux splitw -t server -h "java -Xmx128M -Xms128M -jar bungee.jar; tmux kill-session -t server"
+tmux splitw -t server -h "java -Xmx128M -Xms128M -Deaglerxbungee.stfu=true -jar bungee.jar; tmux kill-session -t server"
 cd ..
 
 while tmux has-session -t server
