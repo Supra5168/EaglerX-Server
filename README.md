@@ -32,7 +32,7 @@ Click in the right half and press `ctrl+c` on your keyboard. This triggers the s
 
 ### If the server crashes due to runningout of memory
 
-Open up `main.sh` on the left sidebar. On line 20, change the 2 instances of `1024` to whatever you want, suchas `2048` for double the memory (2 GB). Make sure to not remove the `M`.
+Open up `main.sh` on the left sidebar. On line 20, change the 2 instances of `1024` to whatever you want, such as `2048` for double the memory (2 GB). Make sure to not remove the `M`.
 
 ### To save progress:
 **Notice: Paper should do this automatically!** 
