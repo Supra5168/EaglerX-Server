@@ -28,9 +28,10 @@ In the "Left" window in the teminal, you can send server commands such as `op pl
 (The right half is the Bungeecord proxy)
 
 ### Stopping the server
-Click in the right half and press `ctrl+c` on your keyboard. This triggers the script to stop the servers.
 
-### If the server crashes due to runningout of memory
+Run `/stop` in-game or `stop` (no `/`) in the left panel of the terminal. Then you can stop the Bungee server by clicking in the right half and pressing `ctrl+c` on your keyboard. (This triggers the script to stop the servers.)
+
+### If the server crashes due to running out of memory
 
 Open up `main.sh` on the left sidebar. On line 20, change the 2 instances of `1024` to whatever you want, such as `2048` for double the memory (2 GB). Make sure to not remove the `M`.
 
