@@ -8,7 +8,7 @@
 ## LAN Relays
 This now supports LAN relays af of 1.8.8-u21. You still need a webserver to host them because most districts restrict LAN access, but the process is the same.
 1) Go to (https://gitpod.io/#https://github.com/UplandJacob/EaglerX-Server)
-2) In the console run `chmod +x ./run.sh`
+2) In the console run `chmod +x ./run.sh` *Each time you load the GitPod workspace, you will need to do this again.*
 3) Then run `run.sh`
 4) Go to the ports section and set them all to public (click the lock icon)
 5) Click the URL from port 6699, and use the link it gives you replacing `https` with `wss`
@@ -16,11 +16,11 @@ This now supports LAN relays af of 1.8.8-u21. You still need a webserver to host
 ## Usage:
 Run it in Gitpod
 1) Go to (https://gitpod.io/#https://github.com/UplandJacob/EaglerX-Server)
-2) In the console run `chmod +x ./main.sh && sudo apt-get install -y tmux` (right click to paste in the teminal)
+2) In the console run `chmod +x ./main.sh` (right click to paste in the teminal). *Each time you load the GitPod workspace, you will need to do this again.*
 3) Then run `./main.sh` to start the servers.
-4) Go to the ports section and set them all to public (click the lock icon)
-5) Click the URL from port 8081, and copy the `wss://` link it gives you
-6) Connect to this url with a 1.12 client. (Available at [eaglercraft.com](https://eaglercraft.com) - select "Release 1.12.2" or WASM)
+4) Go to the ports section and set them all to public (click the lock icon).
+5) Click the URL from port 8081, and copy the `wss://` link it gives you.
+6) Connect to this url with any Eaglercraft client. (1.12 clients (recommended) are available at [eaglercraft.com](https://eaglercraft.com) - select "Release 1.12.2" or WASM)
 
 ### To run server commands:
 In the "Left" window in the teminal, you can send server commands such as `op player`.
@@ -33,7 +33,7 @@ Run `/stop` in-game or `stop` (no `/`) in the left panel of the terminal. Then y
 
 ### If the server crashes due to running out of memory
 
-Open up `main.sh` on the left sidebar. On line 20, change the 2 instances of `1024` to whatever you want, such as `2048` for double the memory (2 GB). Make sure to not remove the `M`.
+Open up `main.sh` on the left sidebar. At the top, change the `PAPER_MAX_RAM` variable to whatever you want. (1024 is 1GB, so if you want 4GB: you can do 4096)
 
 ### To save progress:
 **Notice: Paper should do this automatically!** 
