@@ -14,6 +14,10 @@ This now supports LAN relays af of 1.8.8-u21. You still need a webserver to host
 5) Click the URL from port 6699, and use the link it gives you replacing `https` with `wss`
 
 ## Usage:
+
+> [!WARNING]
+> By running this server, you are agreeing to the [Minecraft/Mojang EULA](https://www.minecraft.net/en-us/eula) as the option is already enabled in `Paper/eula.txt`.
+
 Run it in Gitpod
 1) Go to (https://gitpod.io/#https://github.com/UplandJacob/EaglerX-Server)
 2) In the console run `chmod +x ./main.sh` (right click to paste in the teminal). *Each time you load the GitPod workspace, you will need to do this again.*
