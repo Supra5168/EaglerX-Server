@@ -1,9 +1,8 @@
 # Replit-Gitpod eaglercraftX server (1.12.2)
 
 ### Originally made by [ayunami2000](https://github.com/ayunami2000), ported to Gitpod by [catfoolyou](https://github.com/catfoolyou), converted to Paper 1.12.2 by [me (UplandJacob)](https://github.com/UplandJacob)
-<a target="_blank" href="https://gitpod.io/#https://github.com/UplandJacob/EaglerX-Server">
-        <img src="https://img.shields.io/badge/Deploy_with-Gitpod-orange" alt="Eagshish Gitpod Development Environment" />
-    </a>
+
+[![Deploy with Gitpod Classic](https://img.shields.io/badge/Deploy_with-Gitpod_Classic-orange)](https://gitpod.io/#https://github.com/UplandJacob/EaglerX-Server) <!--[![Deploy with NEW Gitpod](https://img.shields.io/badge/Deploy_with-NEW_Gitpod-orange)](https://app.gitpod.io/#https://github.com/UplandJacob/EaglerX-Server) -->
 
 ## LAN Relays
 This now supports LAN relays af of 1.8.8-u21. You still need a webserver to host them because most districts restrict LAN access, but the process is the same.
