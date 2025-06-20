@@ -26,7 +26,7 @@ Run it in Gitpod
 6) Connect to this url with any Eaglercraft client. (1.12 clients (recommended) are available at [eaglercraft.com](https://eaglercraft.com) - select "Release 1.12.2" or WASM)
 
 ### To run server commands:
-In the "Left" window in the teminal, you can send server commands such as `op player`.
+In the left window in the teminal, you can send server commands such as `op player`.
 
 (The right half is the Bungeecord proxy)
 
