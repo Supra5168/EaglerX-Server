@@ -4,15 +4,15 @@
 
 [![Deploy with Gitpod Classic](https://img.shields.io/badge/Deploy_with-Gitpod_Classic-orange)](https://gitpod.io/#https://github.com/UplandJacob/EaglerX-Server) <!--[![Deploy with NEW Gitpod](https://img.shields.io/badge/Deploy_with-NEW_Gitpod-orange)](https://app.gitpod.io/#https://github.com/UplandJacob/EaglerX-Server) -->
 
-## LAN Relays
-This now supports LAN relays af of 1.8.8-u21. You still need a webserver to host them because most districts restrict LAN access, but the process is the same.
+## LAN Relay Usage:
+This now supports LAN relays as of 1.8.8-u21. You still need a webserver to host them because most districts restrict LAN access, but the process is the same.
 1) Go to (https://gitpod.io/#https://github.com/UplandJacob/EaglerX-Server)
 2) In the console run `chmod +x ./run.sh` *Each time you load the GitPod workspace, you will need to do this again.*
 3) Then run `run.sh`
 4) Go to the ports section and set them all to public (click the lock icon)
 5) Click the URL from port 6699, and use the link it gives you replacing `https` with `wss`
 
-## Usage:
+## Server Usage:
 
 > [!WARNING]
 > By running this server, you are agreeing to the [Minecraft/Mojang EULA](https://www.minecraft.net/en-us/eula) as the option is already enabled in `Paper/eula.txt`.
